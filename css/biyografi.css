@@ -1,0 +1,54 @@
+
+main .container {
+    padding: 100px 0;
+}
+main .harezmi .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    padding: 0;
+} 
+main .harezmi .container table {
+    width: 300px;
+    border: 1px solid #999;
+}
+main .harezmi .container table th {
+    border: 1px solid #999;
+    padding: 5px ;
+}
+main .harezmi .container table img {
+    width: 100%;
+    height: 150px;
+}
+main .harezmi .container .text {
+    flex: 1;
+    padding-right:30px;
+}
+@media (max-width: 767px) {
+    main .harezmi .container .text {
+        flex-basis: 100%;
+        padding-right:0;
+    }
+    main .harezmi .container{
+        justify-content: center;
+    } 
+}
+
+main .container h2 {
+    color: var(--main-color);
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+main .container h3 {
+    color: #333;
+}
+main .container p {
+    color: #444;
+    line-height: 1.4;
+}
+main .container ul li{
+    padding: 10px 0;
+    color: #444;
+}
