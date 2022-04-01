@@ -31,3 +31,15 @@
 .landing .container .box p a:hover {
     color: var(--main-color-hover);
 }
+@media (max-width: 767px) {
+    .landing .container .box {
+        width: 98%;
+        padding: 50px 10px;
+    }
+    .landing .container .box h1 {
+        font-size: 30px;
+    }
+    .landing .container .box p {
+        font-size: 16px;
+    }
+}

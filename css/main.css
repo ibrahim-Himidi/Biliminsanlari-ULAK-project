@@ -30,6 +30,12 @@
         height: 250px;
     }
 }
+@media (max-width: 560px) {
+    .content .container .card {
+        max-width:310px;
+        margin: 0 auto;
+    }
+}
 
 .content .container .card h2 {
     padding: 15px 10px;
