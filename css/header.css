@@ -1,4 +1,4 @@
-/* Start Header */
+
 header {
     box-shadow: rgb(102 102 102) 0 -2px 9px 0px;
     background-color: var(--main-background-color); 
@@ -7,93 +7,66 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px 0;
+    position: relative;
 }
-
-header .container  img {
+header .logo-box img {
     height: 70px;
 }
 
-header nav .toggle-menu {
+header .nav-btn {
     display: none;
-    padding: 15px;
-}
-header nav .toggle-menu span{
-    width: 30px;
-    height: 3px;
-    background-color: #666;
-    display: block;
-    transition: 0.5s;
-}
-header nav .toggle-menu span:not(:last-child){
-    margin-bottom: 5px;
 }
 
-header nav .toggle-menu:hover span {
-    margin:-2px;
+header .nav-links {
+    display: inline;
+    font-size: 18px;
 }
-header nav .toggle-menu:hover span:nth-child(1){
-    transform:rotatez(-225deg);
-}
-header nav .toggle-menu:hover span:nth-child(2){
-    opacity: 0;
-}
-header nav .toggle-menu:hover span:nth-child(3){
-    transform:rotateZ(225deg);
-}
-header nav .toggle-menu:hover + ul {
-    display: block;
-}
-
-header .container ul {
-    display: flex;
-    list-style: none;
-}
-header .container ul li a {
-    padding:10px 20px;
-    display: block;
-    color:#666;
-    font-size:18px;
+header .nav-links a {
+    padding:  21px 20px ;
     font-weight: bold;
-    position: relative;
-    transition: 0.3s;
-    border-radius: 20px;
-    margin-left: 10px;
+    color: #666;
 }
-header .container ul li a.active {
-    background-color: var(--main-color);
-    color: white;
+header .nav-links a:hover {
+   background-color: #f0f0f0;
 }
-header .container ul li a:hover {
-    background-color: var(--main-color);
-    color: white;
-}
+header #nav-check {
+    display: none;
+  }
 
-@media (max-width: 991px) {
-    header .container ul {
-        display: none;
+@media (max-width:767px) {
+    header .nav-btn {
+        display: flex;
         position: absolute;
-        top:79px;
-        left: 50%;
-        transform: translateX(-50%);
-        border-radius:0 0 20px 20px;
-        padding: 20px;
-        width:90%;
-        background-color:var(--main-background-color);
-        border-bottom: 5px solid var(--main-color);
-        box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+        right: 10px;
     }
-    header .container ul::after {
-        content: "";
-        position: absolute;
-        border-width: 15px 15px 15px 15px;
-        border-style: solid;
-        border-color: transparent transparent #e9e9e9 transparent;
-        top: -30px;
-        right: 5px;
-    }
-    header nav .toggle-menu {
+
+    header .nav-btn span {
         display: block;
+        width: 30px;
+        height: 10px;
+        border-top: 2px solid rgb(0, 0, 0);
     }
+    header  .nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color:var(--main-background-color);
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 73.39px;
+        left: 0px;
+      }
+      header  .nav-links a {
+        display: block;
+      }
+
+      header  #nav-check:not(:checked) ~ .nav-links {
+        height: 0px;
+      }
+
+      header .container  #nav-check:checked ~ .nav-links {
+        height: calc(100vh - 73px);
+        overflow-y: auto;
+      }
 }
-/* End Header */

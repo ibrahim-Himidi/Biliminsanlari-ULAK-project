@@ -17,24 +17,27 @@
 </head>
 <body>
     <!-- Start header -->
-    <header>
+    <header id="header">
         <div class="container">
-            <a href="index.html"><img src="images/logo.png" alt=""></a>
-            <nav>
-                    <div  class="toggle-menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                <ul>
-                    <li><a href="index.html" class="active">Ana sayfa</a></li>
-                    <li><a href="html/soon.html">Hızlı Erişim</a></li>
-                    <li><a href="html/soon.html">Hakkımızda</a></li>
-                    <li><a href="html/soon.html">İletişim</a></li>
-                </ul>
-            </nav>
+          <input type="checkbox" id="nav-check" />
+          <div class="logo-box">
+            <a href="../index.html"><img src="../images/logo.png" alt="" /></a>
+          </div>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+          <div class="nav-links">
+              <a href="index.html" class="active">Ana sayfa</a>
+              <a href="html/soon.html">Hızlı Erişim</a>
+              <a href="html/soon.html">Hakkımızda</a>
+              <a href="html/soon.html">İletişim</a>
+          </div>
         </div>
-    </header>
+      </header>
     <!-- End header -->
     <!-- Start Content -->
     <div class="content">
@@ -287,5 +290,7 @@
         </div>
     </footer>
     <!-- End footer -->
+
+    <a href="#header" id="backTop">^</a>
 </body>
 </html>
