@@ -33,13 +33,13 @@
 }
 @media (max-width: 767px) {
     .landing .container .box {
-        width: 98%;
-        padding: 50px 10px;
+        width: 99%;
+        padding: 50px 5px;
     }
     .landing .container .box h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
     .landing .container .box p {
-        font-size: 16px;
+        font-size: 15px;
     }
 }
