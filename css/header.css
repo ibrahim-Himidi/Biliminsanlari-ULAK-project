@@ -1,5 +1,7 @@
-
-header {
+header  a {
+     text-decoration: none;
+ }
+ header{
     box-shadow: rgb(102 102 102) 0 -2px 9px 0px;
     background-color: var(--main-background-color); 
 }

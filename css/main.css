@@ -54,6 +54,7 @@
     font-weight: bold;
     transition: 0.3s;
     text-align: center;
+    text-decoration: none;
 }
 .content .container .card a:hover {
     background-color:#ddd;
@@ -80,6 +81,7 @@
     color: #303030;
     font-weight: bold;
     transition: 0.3s;
+    text-decoration: none;
 }
 .pages ul li a:hover {
     background-color:rgb(190, 190, 190);

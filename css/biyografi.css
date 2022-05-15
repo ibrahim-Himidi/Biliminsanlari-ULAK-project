@@ -11,6 +11,7 @@ main .scienttist .container{
 main .scienttist .container table {
     width: 300px;
     border: 1px solid #999;
+    margin-bottom: 15px;
 }
 main .scienttist .container table th,
 main .scienttist .container table td {
@@ -26,7 +27,7 @@ main .scienttist .container .text {
     padding-right:30px;
 }
 @media (max-width: 767px) {
-    main .harezmi .container .text {
+    main .scienttist .container .text {
         flex-basis: 100%;
         padding-right:0;
     }
@@ -53,4 +54,7 @@ main .container ul li,
 main .container ol li{
     padding: 5px 0;
     color: #444;
+}
+h3, ul, ol{
+    margin: 10px 0;
 }
