@@ -56,15 +56,3 @@ body {
     --main-color-hover:#0051bb;
     --main-background-color:#fafafa;
 }
-
-/* back top */
-#backTop {
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    background-color: var(--main-color);
-    color: white;
-    padding: 8px 12px ;
-    border-radius: 10px;
-    text-decoration: none;
-}
