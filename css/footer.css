@@ -13,5 +13,6 @@ footer .container p {
 }
 footer .container p a {
     color: var(--main-color);
+    text-decoration: none;
 }
 /* End footer */

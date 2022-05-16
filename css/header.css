@@ -28,7 +28,8 @@ header .nav-links a {
     font-weight: bold;
     color: #666;
 }
-header .nav-links a:hover {
+header .nav-links a:hover,
+header .nav-links a.active {
    background-color: #f0f0f0;
 }
 header #nav-check {

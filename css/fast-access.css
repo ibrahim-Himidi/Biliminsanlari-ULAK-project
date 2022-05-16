@@ -1,0 +1,41 @@
+    h1 {
+    color: var(--main-color);
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.content .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.content .container .box {
+    width: 25%;
+    margin: 20px;
+}
+
+@media (max-width: 600px) {
+    .content .container .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.content .container h3 {
+    color: #333;
+}
+.content .container ul {
+    list-style:none;
+}
+.content .container ul li {
+    padding: 3px;
+}
+.content .container a {
+    color: #333;
+   
+}
+
+
+
