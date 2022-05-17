@@ -29,7 +29,7 @@ header .nav-links a {
     color: #666;
 }
 header .nav-links a:hover,
-header .nav-links a.active {
+header .nav-links a.Active {
    background-color: #f0f0f0;
 }
 header #nav-check {
