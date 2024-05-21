@@ -1,12 +1,13 @@
-# Tic-Tac-Toe Game
+# Bilim İnsanları
 
-## Overview
-This is a Tic-Tac-Toe game developed using C++ and Object-Oriented Programming (OOP) principles. The game allows you to play against the computer, which uses a simple algorithm to make logical and strategic moves.
+## Proje Açıklaması
+Bu proje, bilim insanlarının yaşam öykülerini ve başarılarını içeren bir web sitesi oluşturmayı amaçlamaktadır.
 
-## Technologies
-- C++
-- Object-Oriented Programming (OOP)
+## Kapsam
+Bu proje, 2022 yılında lise döneminde TÜBİTAK 4006 Bilim Fuarı için geliştirilmiştir.
 
-## Features
-- Playable Tic-Tac-Toe game against the computer.
-- Intelligent computer opponent that makes strategic moves.
+## Kullanılan Teknolojiler
+- HTML
+- CSS
+
+
